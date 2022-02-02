@@ -1,3 +1,10 @@
-body{
-    background-color: brown;
-}
+@import 'partials/reset';
+@import 'partials/commons';
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';
+
+
+
+
