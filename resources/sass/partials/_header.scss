@@ -22,6 +22,11 @@ nav{
                 border-bottom: 5px solid rgb(2 130 249);
                 color: rgb(2 130 249);
             }
+
+            &.active{
+                color: rgb(2 130 249);
+                border-bottom: 5px solid rgb(2 130 249);
+            }
         }
     }
 }

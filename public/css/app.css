@@ -24,16 +24,44 @@ nav ul {
   display: flex;
   list-style: none;
 }
-
 nav ul a {
   margin-left: 20px;
   color: #58524d;
   padding-bottom: 30px;
   text-decoration: none;
 }
-
 nav ul a:hover {
   border-bottom: 5px solid #0282f9;
   color: #0282f9;
 }
+nav ul a.active {
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
+}
 
+main {
+  background-color: #1c1c1c;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  padding: 60px;
+}
+.cards .card {
+  width: 13%;
+  margin: 15px;
+}
+.cards .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+.cards .card h5 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
